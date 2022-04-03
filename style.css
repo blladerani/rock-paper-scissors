@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #e0e0e0;
+  align-items: center;
+}
+
+h1 {
+  margin: 90px;
+}
+
+.selection {
+  display: flex;
+  gap: 60px;
+}
+
+.selection img {
+  height: 100px;
+  width: auto;
+}
+
+.option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: #d0d0d0;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 8px 8px;
+}
+
+.option-clicked {
+  position: relative;
+  left: 10px;
+  top: 10px;
+  box-shadow: none;
+}
+
+.option-text {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.scores {
+  display: flex;
+  gap: 50px;
+}
+
+h2 {
+  margin: 50px 0 10px 0;
+}
+
+h3 {
+  margin: 0;
+  text-align: center;
+}
